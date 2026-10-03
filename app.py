@@ -20,7 +20,7 @@ from langchain_groq import ChatGroq
 # PAGE CONFIGURATION
 # =========================
 st.set_page_config(
-    page_title="Nexus AI Support",
+    page_title="AI Support",
     page_icon="✨",
     layout="wide",
     initial_sidebar_state="expanded" 
@@ -282,7 +282,7 @@ qa_chain = ConversationalRetrievalChain.from_llm(
     memory=user_data["memory"], 
     verbose=False
 )
-
+#fixing the new bug
 # Render Chat History
 for role, message in user_data["chat_history"]:
     avatar = "👤" if role == "You" else "✨"
