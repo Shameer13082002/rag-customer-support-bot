@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-pinecone
+pinecone
+groq
+sentence-transformers
+pypdf
+python-docx
+pandas
+python-dotenv
+tiktoken
